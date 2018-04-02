@@ -3,12 +3,15 @@ TinyGrammar Jolie wrapper
 
 TinyGrammar is a minimalistic implementation of Chomsky's [generative grammar](https://en.wikipedia.org/wiki/Generative_grammar) wrote by [Massimo Barbieri](http://www.massimobarbieri.it)
 This is a Jolie (http://www.jolie-lang.org/) wrapper with translation support.
+The code, with few modifications, comes from this post on Fabrizio's blog:
+http://fmontesi.github.io/2017/12/01/jolie-duckduckgo.html
+
 
 ## Key features
 
 * Supports both .NET Framework and .NET Core version of TinyGrammar
 
-* Automatic translation through Google Translator APIs (default from italian to english)
+* Automatic translation through Google Translator APIs (default from italian to english), see: https://ctrlq.org/code/19909-google-translate-api
 
 ## Examples
 All examples use "tecnichese grammar":
