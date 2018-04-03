@@ -34,7 +34,7 @@ main
   //getJsonString@JsonUtils(response)(json_resp);
   //println@Console( json_resp )();
   // Google Translate splits response in sentences, loop is needed
-  for( i = 0, i < #response._[0]._, i++ ) {
-    println@Console( response._[0]._[i]._[0] )()
+  for( line in response._._ ) {
+    println@Console( line._ )()
   }
 }
