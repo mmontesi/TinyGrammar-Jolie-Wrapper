@@ -2,7 +2,9 @@ TinyGrammar Jolie wrapper
 =========================
 
 TinyGrammar is a minimalistic implementation of Chomsky's [generative grammar](https://en.wikipedia.org/wiki/Generative_grammar) wrote by [Massimo Barbieri](http://www.massimobarbieri.it)
+
 This is a Jolie (http://www.jolie-lang.org/) wrapper with translation support.
+
 The code, with few modifications, comes from this post on Fabrizio's blog:
 http://fmontesi.github.io/2017/12/01/jolie-duckduckgo.html
 
